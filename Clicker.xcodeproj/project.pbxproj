@@ -64,6 +64,7 @@
 		6C05BCFD60373F187852D89A /* Pods_ClickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		758B3F23753571EECF32AEEB /* Pods-Clicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clicker.debug.xcconfig"; path = "Target Support Files/Pods-Clicker/Pods-Clicker.debug.xcconfig"; sourceTree = "<group>"; };
 		7E03F7EC2690DE8200226E17 /* FullScreenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModifier.swift; sourceTree = "<group>"; };
+		7E16E747269308B20041272C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		7E5D66B12690B0A8009C2948 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		7E5D66B32690B203009C2948 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		7E5D66B52690B20F009C2948 /* HardcoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardcoreViewModel.swift; sourceTree = "<group>"; };
@@ -180,6 +181,7 @@
 		7ECEBEF4268F97CD0010C9F1 /* Clicker */ = {
 			isa = PBXGroup;
 			children = (
+				7E16E747269308B20041272C /* Config.xcconfig */,
 				7ECEBEF5268F97CD0010C9F1 /* AppDelegate.swift */,
 				7ECEBEF7268F97CD0010C9F1 /* SceneDelegate.swift */,
 				7ECEBEF9268F97CD0010C9F1 /* ContentView.swift */,
@@ -703,7 +705,7 @@
 		};
 		7ECEBF1D268F97CE0010C9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 758B3F23753571EECF32AEEB /* Pods-Clicker.debug.xcconfig */;
+			baseConfigurationReference = 7E16E747269308B20041272C /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -726,7 +728,7 @@
 		};
 		7ECEBF1E268F97CE0010C9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53CAABEAC623658742590B40 /* Pods-Clicker.release.xcconfig */;
+			baseConfigurationReference = 7E16E747269308B20041272C /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -749,7 +751,7 @@
 		};
 		7ECEBF20268F97CE0010C9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C73D76A7180BA899ABA1082 /* Pods-ClickerTests.debug.xcconfig */;
+			baseConfigurationReference = 7E16E747269308B20041272C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -772,7 +774,7 @@
 		};
 		7ECEBF21268F97CE0010C9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDDA2D89FF13C551642250BD /* Pods-ClickerTests.release.xcconfig */;
+			baseConfigurationReference = 7E16E747269308B20041272C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

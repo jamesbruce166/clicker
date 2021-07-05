@@ -63,7 +63,7 @@ struct SpeedRun: View {
         .alert(item: $viewModel.alertItem, content: { alertItem in
             Alert(title: alertItem.title, message: alertItem.message, dismissButton: .default(alertItem.buttonTitle, action: { viewModel.resetGame() }))
         })
-        .presentInterstitialAd(isPresented: $viewModel.showIntersitialAd, adUnitId: "ca-app-pub-4048481923671206/9399673564")
+        .presentInterstitialAd(isPresented: $viewModel.showIntersitialAd, adUnitId: "")
     }
 }
 
